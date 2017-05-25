@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+  color: #1d1e1f; }
+
+a {
+  text-decoration: none; }
+
+.news {
+  border: 1px solid black;
+  color: #1d1e1f; }
+
+.menu {
+  background: burlywood; }
+
+h6 {
+  color: #5bc0de; }

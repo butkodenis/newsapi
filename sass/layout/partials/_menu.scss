@@ -1,0 +1,29 @@
+.nav {
+  //margin: 40px 45px 0 0 ;
+  //width: 315px;
+  height: 32px;
+  float: right;
+  margin: 63px 0 0 0;
+  ul {
+    //font-size: 0;
+    li {
+      display: inline-block;
+      margin-right: 10px;
+      a {
+        font-family: "Titillium Web", sans-serif;
+        font-size: $fs-menu;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        color: $white;
+        background-color: $color-header-bgr;
+
+      }
+      :hover {
+        background-color: $color-nav_hover;
+      }
+    }
+
+  }
+}

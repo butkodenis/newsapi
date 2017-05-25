@@ -1,0 +1,17 @@
+#checkour {
+  img {
+    width: 100%;
+    display: block;
+    height: 500px;
+  }
+  .checkuor_left{
+    background-color: $color-span;
+    color: $white;
+    min-height: 500px;
+    //padding-right: -15px;
+    h2 {
+      text-align: left;
+      padding: 100px 30px 85px;
+    }
+  }
+}

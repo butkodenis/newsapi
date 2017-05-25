@@ -1,0 +1,59 @@
+body {
+  text-align: center;
+  font-family: "Titillium Web", sans-serif;
+}
+
+
+h1 {
+  font-size: $fs-h1;
+  margin: 102px 0 0 0;
+  text-transform: uppercase;
+
+  }
+h2 {
+  font-size: $fs-h2;
+
+}
+h3 {
+  //font-size: $fs-h3;
+}
+h4 {
+  font-size: $fs-h4;
+  margin: 60px auto 13px auto;
+  text-transform: uppercase;
+}
+h6 {
+  font-size: $fs-h6;
+  margin: 20px auto 80px auto;
+  text-transform: capitalize;
+}
+a {
+  text-decoration: none;
+}
+.line {
+  border-bottom: 4px solid black;
+  width: 86px;
+  margin: 5px auto;
+}
+input[type="button"]{
+  font-family: "Titillium Web", sans-serif;
+  font-size: $fs-button-lg;
+  text-transform: uppercase;
+  display: block;
+  padding: 21px 82px;
+ // background-color: $color-header-btn ;
+  margin: 35px auto 70px auto;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  color: $white;
+  border-width: 0 0 3px 0;
+}
+
+input {
+  border-width: 0 0 0px 0;
+ // border-bottom-width: 2px;
+}
+textarea {
+  border-width: 0px;
+}

@@ -1,0 +1,52 @@
+.portfolio {
+  background-color: $color-brg-portfolio;
+  color: $color-team-font;
+  text-align: center;
+// padding-bottom: 50px;
+  //font-family: MyriadProRegular, sans-serif;
+  //h1{
+  //  margin: 120px 0 0 0;
+  //  text-transform: uppercase;
+  //}
+  h6 {
+    margin: 20px auto 35px auto;
+   // width: 540px;
+
+  }
+  .line {
+    //border-bottom: 3px solid black;
+    //width: 40px;
+    //margin: 0 auto;
+  }
+  .web {
+    display: none;
+  }
+  .apps {
+    display: none;
+  }
+  .icons {
+    display: none;
+
+  }
+  #myList div{ display:none;
+
+  }
+  .button-sm{
+    padding: 8px 0 ;
+    margin: 0 10px 30px 0;
+    width: 85px;
+    border-radius: 5px;
+    background-color: $color-portfolio-btn-sm;
+    text-transform: uppercase;
+    display: inline-block;
+    border-width: 0 0 0 0;
+    cursor: pointer;
+    :active .web{
+      display: none;
+
+    }
+  }
+  img {
+    width: 100%;
+  }
+}

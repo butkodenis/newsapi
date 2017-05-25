@@ -1,0 +1,39 @@
+@media all and (max-width: 992px) {
+
+}
+
+@media all and (max-width: 767px) {
+  .contact {
+    .form{
+      margin: 0 20px;
+    }
+  }
+  .aboutus {
+    .client-review {
+      width: 60%;
+    }
+    .client-avatar{
+      margin: 0 20px 0 0;
+    }
+  }
+  header{
+    .nav ul li {
+      padding: 0 0;
+      a{
+        padding: 10px 0px;
+      }
+    }
+  }
+  footer {
+    ul {
+      li {
+        width: 100%;
+      }
+    }
+  }
+
+}
+
+@media all and (max-width: 320px) {
+
+}

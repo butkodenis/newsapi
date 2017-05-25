@@ -1,0 +1,10 @@
+#news {
+  background: url("../images/newsbanner.jpg") no-repeat top center;
+  background-size: cover;
+  text-align: center;
+  padding: 145px 0;
+  color: $white;
+  h2{
+    float: none;
+  }
+}

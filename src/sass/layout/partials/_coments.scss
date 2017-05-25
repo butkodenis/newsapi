@@ -1,0 +1,31 @@
+.comments {
+  min-height: 500px ;
+  padding: 40px 0 0 0;
+  background-image: url("../images/pattern-bg.png");
+  color: $white;
+  .comments-block {
+    padding: 140px 0 0 0;
+    height: 320px ;
+    width: 100%;
+    //background: red ;
+
+    h4 {
+      color: $white;
+    }
+  }
+  .owl-theme .owl-nav {
+    display: none;
+  }
+  .owl-theme .owl-dots .active > span {
+    width: 14px;
+    height: 14px;
+  }
+  .owl-theme .owl-dots .owl-dot span {
+    width: 8px;
+    height: 8px;
+  }
+  .owl-theme .owl-dots{
+    margin: 67px 0 0 0;
+  }
+
+}

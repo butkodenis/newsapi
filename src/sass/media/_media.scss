@@ -1,0 +1,89 @@
+@media all and (max-width: 1200px) {
+  span.line {
+    display: none;
+  }
+  h2 {
+    font-size: 62px;
+    float: none;
+  }
+  //menu
+  .nav > li {
+    margin: 0 20px;
+  }
+}
+
+@media all and (max-width: 992px) {
+
+  h2 {
+    font-size: 52px;
+  }
+  .nav > li {
+    margin: 0 10px;
+  }
+  .nav > li > a{
+    padding: 5px 5px;
+  }
+
+  #checkour img{
+    height: 300px;
+  }
+  #checkour .checkuor_left{
+    min-height: 300px;
+    h2 {
+      padding: 20px;
+    }
+  }
+
+}
+
+@media all and (max-width: 767px) {
+  header {
+    padding-top: 140px;
+    button.more {
+      font-size: 18px;
+      padding: 3px;
+    }
+  }
+  #food-menu, #service{
+    padding: 80px 0 50px;
+  }
+  #service .service-block {
+    padding-top: 80px;
+  }
+  .navbar-brand {
+    display: inline-block;
+    > img {
+      height: 30px;
+   }
+  }
+  #logo-li {
+    display: none;
+  }
+  h1 {
+    font-size: 46px;
+    padding-bottom: 30px;
+  }
+  h2 {
+    font-size: 42px;
+    padding-bottom: 40px;
+  }
+  p{
+    font-size: 18px;
+  }
+
+  #checkour .checkuor_left{
+    min-height: 230px;
+
+  }
+  #food-menu .filter{
+    padding: 5px ;
+    font-size: 18px;
+  }
+
+  .nav > li {
+    width: 100%;
+  }
+}
+@media all and (max-width: 320px) {
+
+}

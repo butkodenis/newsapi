@@ -1,0 +1,23 @@
+footer {
+  padding-top: 44px;
+  padding-bottom: 25px;
+  .social {
+    margin: 0 auto 0 auto;
+    >i {
+      display: inline-block;
+
+      font-size: 25px;
+
+    }
+    p {
+      text-align: center;
+    }
+    >a {
+      font-size: 25px;
+      color: $color-base;
+      margin-left: 15px;
+      text-decoration: none;
+
+    }
+  }
+}

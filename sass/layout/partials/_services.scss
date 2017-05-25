@@ -1,0 +1,31 @@
+.services {
+  background-color: $color-services-bgr;
+  color: $white;
+  text-align: center;
+ // font-family: MyriadProRegular, sans-serif;
+  //h1{
+  //  margin: 120px 0 0 0;
+  //  text-transform: uppercase;
+  //}
+  //h4{
+  //  margin: 60px auto 20px auto;
+  //  text-transform: uppercase;
+  //}
+
+  h6 {
+    margin: 20px auto 56px auto;
+
+  }
+  span{
+    padding: 0 5px 15px 5px;
+    //margin: 0 15px 15px 15px;
+    border-bottom: 3px solid #14a58c;
+  }
+  p {
+    margin-bottom: 130px;
+  }
+  .services-icon{
+    height: 115px;
+    margin: 0 0 20px 0;
+  }
+}

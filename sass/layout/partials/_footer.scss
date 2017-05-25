@@ -1,0 +1,24 @@
+footer {
+  padding: 60px 80px ;
+  background-color: $color-brg-footer;
+
+  ul {
+    li{
+      margin-right:  55px;
+      display: inline-block;
+
+      a{
+        font-size: 24px;
+       text-transform: capitalize;
+        color: $white;
+        font-family: "Titillium Web";
+      }
+      :hover {
+        color: #30bae7;
+      }
+    }
+    :last-child{
+      margin-right: 0px ;
+    }
+  }
+}

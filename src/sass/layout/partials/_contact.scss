@@ -1,0 +1,29 @@
+.contact {
+
+  input,textarea {
+    width: 100%;
+  }
+  h2,p{
+    text-align: left;
+  }
+  input[type=text],input[type=email],textarea {
+    padding: 16px 22px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+  }
+  textarea{
+    min-height: 170px;
+  }
+  input[type=submit] {
+    padding: 16px 22px;
+    margin: 0 0 80px 0;
+    width: 180px;
+    float: left;
+    background-color: $color-btn-contact;
+    color: $white;
+  }
+  strong {
+    font-family: Work Sans Bold, sans-serif, sans-serif;
+    color: $black;
+  }
+}

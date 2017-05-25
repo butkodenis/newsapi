@@ -1,0 +1,41 @@
+.contact {
+  color: $white;
+  background-color: $color-brg-contact;
+
+  h6 {
+
+    color: $white;
+  }
+
+
+
+
+  .form{
+    margin: 0 120px;
+    input[type='text'], input[type='email'], textarea {
+      border-radius: 5px;
+      background-color:  $color-brg-form;
+      color: $white;
+    }
+    input[type='text'], input[type='email'] {
+      width: 48%;
+      //height: ;
+      padding: 20px;
+    }
+    input[type='text']{
+      float: left;
+    }
+    input[type='email']{
+      float: right;
+    }
+    input[type="button"]{
+      background-color: $color-brg-contact-btn;
+    }
+    textarea {
+      width: 100%;
+      margin: 25px 0 0 0;
+      padding: 20px;
+    }
+
+  }
+}

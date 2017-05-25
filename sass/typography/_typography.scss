@@ -1,0 +1,27 @@
+// Add @font-face or @import rules here
+
+//$fonts: '../fonts';
+//
+//@font-face {
+//  font-family: 'Source Sans Pro';
+//  src: url('/fonts/SourceSansPro-Light.eot');
+//  src: url('/fonts/SourceSansPro-Light.eot?#iefix') format('embedded-opentype'),
+//  url('/fonts/SourceSansPro-Light.woff') format('woff'),
+//  url('/fonts/SourceSansPro-Light.ttf') format('truetype');
+//  font-style: normal;
+//  font-weight: normal;
+//}
+
+@font-face {
+  font-family: "MyriadProRegular";
+  src: url("/fonts/MyriadProRegular/MyriadProRegular.eot");
+  src: url("/fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+  url("/fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+  url("/fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: Titillium Web;
+  src: url(/fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
+}

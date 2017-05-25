@@ -1,0 +1,20 @@
+header {
+  background-color: $color-header-bgr;
+  color: $white;
+  h2 {
+   // font-family: "Titillium Web", sans-serif;
+    font-size: 42.12px;
+    margin: 132px auto 0 auto;
+    text-align: center;
+
+    line-height: 112%;
+  }
+  input[type="button"]{
+
+    background-color: $color-header-btn ;
+    margin: 55px auto 145px auto;
+
+    color: $white;
+  }
+
+}

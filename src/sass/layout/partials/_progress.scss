@@ -1,0 +1,17 @@
+.progress_ {
+  background-image: url("../images/pattern-bg.png");
+  padding: 60px 0 55px 0;
+  color: $white;
+  .progress-block {
+    padding: 40px 0;
+  }
+  i {
+    font-size: 50px;
+    float: left;
+    margin-right: 45px;
+  }
+  h5 {
+    text-align: left;
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,70 @@
+nav {
+  padding: 25px 0 45px 0;
+  //height: 130px;
+  background-color:  rgba(0,0,0, .5);
+
+}
+.nav > li {
+  margin: 0 25px;
+}
+.nav > li > a {
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  color: $white;
+  text-transform: uppercase;
+  font-weight: 700;
+
+}
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+  > li {
+    float: none;
+    display: inline-block;
+  }
+  animation: zoomIn 1s;
+}
+
+//.navbar-brand {
+//  img {
+//    height: 31px;
+//  }
+//  padding: 10px 15px;
+//}
+.nav>li>a:focus, .nav>li>a:hover {
+  background-color: rgba(0,0,0, 0);
+  //color: $white;
+}
+button.navbar-toggle {
+  background-color: white ;
+  .icon-bar{
+    background-color: $black;
+    height: 1px;
+  }
+//  .nav>li>a:hover {
+//    background-color: rgba(0,0,0, 0.5);
+//  }
+//
+//
+//}
+//.in {
+//  z-index: 100;
+//  position: absolute;
+//  width: 100%;
+//  background-color: rgba(0,0,0, 0.7);
+//  .nav>li>a {
+//    color: $white;
+//  }
+  .nav>li>a:hover  {
+    color: $color-span;
+    //display: none;
+  }
+
+
+
+}
+.sticky{
+   //height: 100px;
+   background-color:  rgba(0,0,0, .9);
+  padding: 0;
+ }
